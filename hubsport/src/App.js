@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Abovenavbar } from './components/Abovenavbar';
+import { Belownavbar } from './components/Belownavbar';
 import { Navbar } from './components/Navbar';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Abovenavbar />
       <Navbar />
+      <Belownavbar />
     </div>
   );
 }
