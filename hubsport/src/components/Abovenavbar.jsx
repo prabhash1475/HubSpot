@@ -8,14 +8,14 @@ export const Abovenavbar = () => {
             <Flex mr={20} ml={20} justifyContent='space-between'>
                 <Flex>
                     <HStack>
-                        <Select border="none" borde>
+                        <Select width={"100px"} border="none" borde>
                             <option>English</option>
                             <option>Hindi</option>
                             <option>Arebic</option>
                             <option>Spanice</option>
                             <option>Germen</option>
                         </Select>
-                        <Text>Contace Sales</Text>
+                        <Text >Contace Sales</Text>
                     </HStack>
                 </Flex>
                 <Flex>
@@ -26,6 +26,6 @@ export const Abovenavbar = () => {
                 </Flex>
             </Flex>
 
-        </div>
+        </div >
     )
 }
