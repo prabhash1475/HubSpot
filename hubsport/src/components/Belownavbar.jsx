@@ -167,14 +167,133 @@ export const Belownavbar = () => {
 
             {/* Green part */}
             <Box color={"whiteAlpha.900"} bg={"#59b588"} p={40} >
-                <VStack m={"auto"} w={"65%"} >
-                    <Heading>Learn and grow with award-winning support and a thriving community behind you.</Heading>
-                    <Text lineHeight={8}>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</Text>
-                </VStack >
+                <Box mb={"100px"}>
+
+                    <VStack m={"auto"} w={"65%"} >
+                        <Heading textAlign={"center"}>Learn and grow with award-winning support and a thriving community behind you.</Heading>
+                        <Text lineHeight={8}>You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</Text>
+                    </VStack>
+                </Box>
+
+                <Grid mt="200px" w={"90%"} m="auto" alignContent={"center"} templateColumns="repeat(4,1fr)" gridAutoRows="auto">
+                    <Stack padding={10} pl={10} pr={10} >
+                        <VStack>
+                            <Image boxSize='60px' p="auto" src='https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_agency.svg' />
+                            <Heading>150+</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>HubSpot user groups</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack padding={10} pl={10} pr={10} borderLeft={"1px solid white"} borderRight="1px solid white" borderBottom="1px solid white" >
+                        <VStack>
+                            <Image boxSize='90px' p="auto" src='https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_blog.svg' />
+                            <Heading>7M+</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>monthly visits</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack padding={10} pl={10} pr={10} borderRight="1px solid white" borderBottom="1px solid white">
+                        <VStack>
+                            <Image boxSize='70px' w="120px" p="auto" src='https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_academy.svg' />
+                            <Heading>460K+</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>certified professionals</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack borderBottom="1px solid white">
+                        <VStack>
+                            <Image boxSize='90px' w={200} src='https://cdn2.hubspot.net/hubfs/53/HubSpot-App-Marketplace-White.png' />
+                            <Heading>70K</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>registered attendees</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack padding={10} pl={10} pr={10} borderTop={"1px solid white"} borderRight={"1px solid white"}>
+                        <VStack>
+                            <Image boxSize='70px' p="auto" w={200} src='https://cdn2.hubspot.net/hubfs/53/HubSpot-App-Marketplace-White.png' />
+                            <Heading>1,090</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>integrations</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack padding={10} pl={10} pr={10} borderTop={"1px solid white"} borderRight={"1px solid white"}>
+                        <VStack>
+                            <Image boxSize='70px' p="auto" src='https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_globe.svg' />
+                            <Heading>6</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>languages</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack padding={10} pl={10} pr={10} borderTop={"1px solid white"} borderRight={"1px solid white"}>
+                        <VStack>
+                            <Image boxSize='70px' p="auto" src='https://www.hubspot.com/hubfs/assets/hubspot.com/parrotdad/homepage/homepage_community_followers.svg' />
+                            <Heading>3.1M</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>social followers</Text>
+                        </VStack>
+                    </Stack>
+                    <Stack padding={10} pl={10} pr={10} borderTop={"1px solid white"} >
+                        <VStack>
+                            <Image boxSize='70px' p="auto" src='https://cdn2.hubspot.net/hubfs/53/Lists.svg' />
+                            <Heading>143,000+</Heading>
+                            <Text fontWeight={"bold"} fontSize='lg'>customers</Text>
+                        </VStack>
+                    </Stack>
+                </Grid>
+
+
+
             </Box>
 
+            {/* 2nd last */}
+            <Box mt="100px" mb="100px">
+                <Grid m={"auto"} gap={"20"} w={"80%"} templateRows={"auto"} templateColumns={"repeat(2,1fr)"}>
+                    <Box>
+                        <Heading>143,000+</Heading>
+                        <Text>customers in over 120 countries growing their businesses with HubSpot</Text>
+                    </Box>
+                    <Box>
+                        <Grid gap={10} templateRows={"auto"} templateColumns={"repeat(4,1fr)"}>
+                            <GridItem>
+
+                                <Image src='https://f.hubspotusercontent00.net/hubfs/53/1200px-WWF_logo_svg%20(1).png' />
+                            </GridItem>
+                            <GridItem>
+
+                                <Image src='https://f.hubspotusercontent00.net/hubfs/53/trello-logo-blue%20(1).png' />
+                            </GridItem>
+                            <GridItem>
+
+                                <Image src='https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg' />
+                            </GridItem>
+                            <GridItem>
+
+                                <Image src='https://newinboundblog.hubspot.com/hubfs/assets/hubspot.com/case-studies/logo-bank/EMEA-logo-bank/Suzuki.png' />
+                            </GridItem>
+                            <GridItem>
+
+                                <Image src='https://f.hubspotusercontent00.net/hubfs/53/soundcloud.png' />
+                            </GridItem>
+                            <GridItem>
+
+                                <Image src='https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png' />
+                            </GridItem>
 
 
+                            <Image w="1000px" src='https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png' />
+
+
+
+                        </Grid>
+                    </Box>
+                </Grid>
+            </Box>
+
+            <Flex textAlign={"left"} mt={100} w="90%" m={"auto"}>
+                <Stack  >
+                    <Heading mb="50px">Start Growing With HubSpot Today</Heading>
+                    <Text >With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.</Text>
+                    <Stack mb="50px" gap={10} > <Button borderRadius={3} w="300px" p={10} colorScheme='orange'>Start free or get a demo</Button></Stack>
+                    <Text size={10} textAlign={"left"}>Get started with free tools, or get more with our premium software.</Text>
+                </Stack>
+                <VStack>
+                    <Image src='https://www.hubspot.com/hubfs/CSOL/module-assets/_cta_contentblock_headshots_headshot_14.png' />
+                </VStack>
+            </Flex>
+ 
         </>
     )
 }
