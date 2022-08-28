@@ -5,6 +5,7 @@ import { Box, Button, Container, Divider, Flex, Grid, GridItem, Heading, Icon, I
 import React from 'react'
 import { CheckCircleIcon } from '@chakra-ui/icons'
 import { FaCheckCircle } from "react-icons/fa";
+import { Footer } from './Footer';
 
 export const Belownavbar = () => {
     return (
@@ -293,7 +294,7 @@ export const Belownavbar = () => {
                     <Image src='https://www.hubspot.com/hubfs/CSOL/module-assets/_cta_contentblock_headshots_headshot_14.png' />
                 </VStack>
             </Flex>
- 
+            <Footer />
         </>
     )
 }
