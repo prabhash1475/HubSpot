@@ -1,5 +1,6 @@
 import { Flex, Select, Option, Text, Container, HStack } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Abovenavbar = () => {
     return (
@@ -20,7 +21,8 @@ export const Abovenavbar = () => {
                 </Flex>
                 <Flex>
                     <HStack>
-                        <Text mr={10}>Login</Text>
+                        <Link to="/login">Login</Link>
+                        <Link to="/signin">Singup</Link>
                         <Text>Customer Support</Text>
                     </HStack>
                 </Flex>

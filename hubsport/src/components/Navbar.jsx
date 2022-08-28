@@ -1,9 +1,12 @@
 import { Button, Flex, Heading, HStack, Image } from '@chakra-ui/react'
 import React from 'react'
+import { Abovenavbar } from './Abovenavbar'
+import { Belownavbar } from './Belownavbar'
 
 export const Navbar = () => {
     return (
         <div>
+            <Abovenavbar />
             <Flex justifyContent={"space-around"} alignItems={'center'}>
                 <HStack gap={10}  >
                     <Image boxSize='120px' src="https://download.logo.wine/logo/HubSpot/HubSpot-Logo.wine.png" alt='hubsport' />
@@ -13,6 +16,7 @@ export const Navbar = () => {
                 </HStack>
                 <Button colorScheme='orange'>Start free or get a demo</Button>
             </Flex>
+            {/* <Belownavbar /> */}
         </div>
     )
 }
